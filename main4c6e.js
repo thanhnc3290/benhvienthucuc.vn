@@ -1,0 +1,1 @@
+(function($){var header=$(".head3");header_scrolled="scrolled";head3_height=$('.head3').height();if(screen&&screen.width>=1169){$(window).scroll(function(){if($(this).scrollTop()>head3_height){header.addClass(header_scrolled)}else{header.removeClass(header_scrolled)}})}})(jQuery)
